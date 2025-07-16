@@ -34,3 +34,37 @@ class student:
 s = student("Abdullah")
 s.marks()
 
+class animal:
+
+    def __init__ (self, name = "Animal"):
+        self.name = name
+
+    def sound(self):
+        print(f"{self.name} Sounds.")
+
+class animal_not:
+    def __init__ (self, name = "Not Animal"):
+        self.name = name
+
+    def not_swim(self):
+        print(f"{self.name} can't swim.")
+
+class dog(animal, animal_not):
+
+    def __init__ (self, name = "Dog"):
+        self.name = name
+
+    def bark(self):
+        print(f"{self.name} barks.")
+
+d = dog("Tony")
+d.bark()
+d.sound()
+d.not_swim()
+
+class test:
+    counter = 0
+
+    def __init__ (self):
+        self.id = test.counter
+        test.counter += 1
