@@ -1,22 +1,18 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 def square(x):
     return x*x
 
 for i in range(11):
     print(f"Square of {i} is {square(i)}")
-=======
-=======
 
->>>>>>> f44eea3b4205293de7d7a9817f2f2d8430522e1b
+
 def squares(x):
     return x*x
 
 for i in range(11):
     print(f"Square of {i} is {squares(i)}")
-<<<<<<< HEAD
->>>>>>> style
-=======
+
+
 
 def square(x):
     return x*x
@@ -24,7 +20,12 @@ def square(x):
 for i in range(11):
     print(f"Square of {i} is {square(i)}")
 
->>>>>>> f44eea3b4205293de7d7a9817f2f2d8430522e1b
+def square(x):
+    return x*x
+
+for i in range(11):
+    print(f"Square of {i} is {square(i)}")
+
 
 print("Executed")
 
@@ -38,12 +39,8 @@ def show_info(**info):
     print(info)
 
 show_info(name="Ali", age=22)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> f44eea3b4205293de7d7a9817f2f2d8430522e1b
+
 
 def product (*num):
     result  = 1
@@ -52,8 +49,4 @@ def product (*num):
     return result
 
 print(product(1,2,4))
-<<<<<<< HEAD
->>>>>>> style
-=======
 
->>>>>>> f44eea3b4205293de7d7a9817f2f2d8430522e1b
