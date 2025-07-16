@@ -1,9 +1,24 @@
 
+def square(x):
+    return x*x
+
+for i in range(11):
+    print(f"Square of {i} is {square(i)}")
+
+
 def squares(x):
     return x*x
 
 for i in range(11):
     print(f"Square of {i} is {squares(i)}")
+
+
+
+def square(x):
+    return x*x
+
+for i in range(11):
+    print(f"Square of {i} is {square(i)}")
 
 def square(x):
     return x*x
@@ -24,6 +39,7 @@ def show_info(**info):
     print(info)
 
 show_info(name="Ali", age=22)
+
 
 
 def product (*num):

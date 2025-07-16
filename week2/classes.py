@@ -68,3 +68,16 @@ class test:
     def __init__ (self):
         self.id = test.counter
         test.counter += 1
+
+class avg:
+    def __init__ (self, x, y):
+        self.x = x
+        self.y = y
+
+    def average(self):
+        return print(f"Average of {self.x} & {self.y} is {(self.x + self.y)/2}. ")
+    
+a = avg(3,2.4)
+a.average()
+
+print(a.x)
