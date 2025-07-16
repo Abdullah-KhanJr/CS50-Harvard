@@ -1,8 +1,8 @@
-def square(x):
+def squares(x):
     return x*x
 
 for i in range(11):
-    print(f"Square of {i} is {square(i)}")
+    print(f"Square of {i} is {squares(i)}")
 
 print("Executed")
 
